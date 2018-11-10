@@ -6,7 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using DevExpress.XtraBars.Docking2010.Views.MetroUI;
+using DevExpress.XtraBars.Docking2010.Views.WindowsUI;
 using DevExpress.XtraWizard;
 using DevExpress.XtraEditors;
 

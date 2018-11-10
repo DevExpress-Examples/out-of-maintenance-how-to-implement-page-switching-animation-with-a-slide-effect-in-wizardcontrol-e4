@@ -27,8 +27,8 @@ Namespace WizardControlPageSwitching
 		Private Sub InitializeComponent()
 			Me.components = New System.ComponentModel.Container()
 			Me.documentManager1 = New DevExpress.XtraBars.Docking2010.DocumentManager(Me.components)
-			Me.metroUIView1 = New DevExpress.XtraBars.Docking2010.Views.MetroUI.MetroUIView(Me.components)
-			Me.pageGroup1 = New DevExpress.XtraBars.Docking2010.Views.MetroUI.PageGroup(Me.components)
+			Me.metroUIView1 = New DevExpress.XtraBars.Docking2010.Views.WindowsUI.MetroUIView(Me.components)
+			Me.pageGroup1 = New DevExpress.XtraBars.Docking2010.Views.WindowsUI.PageGroup(Me.components)
 			CType(Me.documentManager1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.metroUIView1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.pageGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -42,7 +42,7 @@ Namespace WizardControlPageSwitching
 			' 
 			' metroUIView1
 			' 
-			Me.metroUIView1.ContentContainers.AddRange(New DevExpress.XtraBars.Docking2010.Views.MetroUI.IContentContainer() { Me.pageGroup1})
+			Me.metroUIView1.ContentContainers.AddRange(New DevExpress.XtraBars.Docking2010.Views.WindowsUI.IContentContainer() { Me.pageGroup1})
 			' 
 			' ucDocMetro
 			' 
@@ -60,8 +60,8 @@ Namespace WizardControlPageSwitching
 		#End Region
 
 		Friend documentManager1 As DevExpress.XtraBars.Docking2010.DocumentManager
-		Friend metroUIView1 As DevExpress.XtraBars.Docking2010.Views.MetroUI.MetroUIView
-		Private pageGroup1 As DevExpress.XtraBars.Docking2010.Views.MetroUI.PageGroup
+		Friend metroUIView1 As DevExpress.XtraBars.Docking2010.Views.WindowsUI.MetroUIView
+		Private pageGroup1 As DevExpress.XtraBars.Docking2010.Views.WindowsUI.PageGroup
 
 
 	End Class

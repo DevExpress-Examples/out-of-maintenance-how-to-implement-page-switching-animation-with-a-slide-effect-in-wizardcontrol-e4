@@ -7,7 +7,7 @@ Imports System.Data
 Imports System.Linq
 Imports System.Text
 Imports System.Windows.Forms
-Imports DevExpress.XtraBars.Docking2010.Views.MetroUI
+Imports DevExpress.XtraBars.Docking2010.Views.WindowsUI
 Imports DevExpress.XtraWizard
 Imports DevExpress.XtraEditors
 

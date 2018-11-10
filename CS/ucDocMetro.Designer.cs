@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
-            this.metroUIView1 = new DevExpress.XtraBars.Docking2010.Views.MetroUI.MetroUIView(this.components);
-            this.pageGroup1 = new DevExpress.XtraBars.Docking2010.Views.MetroUI.PageGroup(this.components);
+            this.metroUIView1 = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.MetroUIView(this.components);
+            this.pageGroup1 = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.PageGroup(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroUIView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pageGroup1)).BeginInit();
@@ -46,7 +46,7 @@
             // 
             // metroUIView1
             // 
-            this.metroUIView1.ContentContainers.AddRange(new DevExpress.XtraBars.Docking2010.Views.MetroUI.IContentContainer[] {
+            this.metroUIView1.ContentContainers.AddRange(new DevExpress.XtraBars.Docking2010.Views.WindowsUI.IContentContainer[] {
             this.pageGroup1});
             // 
             // ucDocMetro
@@ -65,8 +65,8 @@
         #endregion
 
         internal DevExpress.XtraBars.Docking2010.DocumentManager documentManager1;
-        internal DevExpress.XtraBars.Docking2010.Views.MetroUI.MetroUIView metroUIView1;
-        private DevExpress.XtraBars.Docking2010.Views.MetroUI.PageGroup pageGroup1;
+        internal DevExpress.XtraBars.Docking2010.Views.WindowsUI.MetroUIView metroUIView1;
+        private DevExpress.XtraBars.Docking2010.Views.WindowsUI.PageGroup pageGroup1;
 
 
     }
