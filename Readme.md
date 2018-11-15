@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [ucDocMetro.cs](./CS/ucDocMetro.cs) (VB: [ucDocMetro.vb](./VB/ucDocMetro.vb))
+* [ucSlideWizard.cs](./CS/ucSlideWizard.cs) (VB: [ucSlideWizard.vb](./VB/ucSlideWizard.vb))
+<!-- default file list end -->
 # How to implement page switching animation with a slide effect in WizardControl.
 
 
